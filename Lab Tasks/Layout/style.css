@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #1e1e1e;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+#navbar {
+  background-color: black;
+  height: 100px;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+#navbar .menu li {
+  list-style: none;
+  display: inline;
+}
+
+#navbar .menu {
+  float: right;
+  width: 50%;
+}
+
+#navbar .menu ul {
+  margin-top: 40px;
+  margin-left: 140px;
+}
+
+#navbar .menu ul li a {
+  margin: 7px;
+}
+
+#navbar .logo img {
+  float: left;
+  width: 50px;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+
+#navbar .logo a {
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+/* ================================================== */
+
+.image h1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -250px;
+  z-index: 0;
+  font-size: 2em;
+}
+.image img {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.circle-image img {
+  float: left;
+  width: 100%;
+  border-radius: 50%;
+  display: inline;
+  top: -180px;
+  border: 5px solid chocolate;
+}
+
+.image1 img {
+  height: 300px;
+  width: 300px;
+  margin-left: 140px;
+}
+
+.image2 img {
+  height: 300px;
+  width: 300px;
+  margin-left: 80px;
+}
+
+.image3 img {
+  height: 300px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+/* ==================================================== */
+
+#focus {
+  display: flex;
+  flex-direction: row;
+  z-index: 0;
+}
+
+#focus div {
+  flex: 3;
+  margin-top: 300px;
+  position: relative;
+  left: -1220px;
+}
+
+#focus a {
+  display: flex;
+  justify-content: center;
+}
+
+#focus img {
+  width: 380px;
+  height: 230px;
+}
+
+.focus-img1 img {
+  margin-left: 80px;
+  margin-right: 30px;
+}
+.focus-img1 h2 {
+  color: white;
+  position: relative;
+  top: -130px;
+  left: 250px;
+}
+
+.focus-img2 img {
+  margin-right: 30px;
+}
+.focus-img2 h2 {
+  color: white;
+  position: relative;
+  top: -130px;
+  left: 140px;
+}
+
+.focus-img3 h2 {
+  color: white;
+  position: relative;
+  top: -130px;
+  left: 150px;
+}
+
+/* ====================================================== */
+
+#imp-info h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  z-index: 0;
+}
+
+.info-img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-img img {
+  width: 380px;
+  height: 230px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.info-img a {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.info-img .info-img1 {
+  margin-left: 80px;
+}
+
+.info-img .info-img4 {
+  margin-left: 80px;
+}
+
+/* ====================================================== */
+#gallery h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  z-index: 0;
+}
+
+.photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 1px solid chocolate;
+  margin-left: 80px;
+  margin-right: 95px;
+  padding: 10px 5px;
+}
+
+.photos img {
+  width: 380px;
+  height: 230px;
+  margin-right: 10px;
+}
+
+/* ===================================================== */
+#link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+
+#links .link-text {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+
+.link-text a {
+  font-size: 1.5em;
+  color: chocolate;
+  margin-right: 100px;
+}
+
+.link-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 0 50px;
+  margin-bottom: 50px;
+}
+
+.link-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+/* ======================================================= */
+#footer {
+  border-top: 1px solid grey;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer a {
+  margin: 35px 10px;
+}
+
+#footer .home {
+  margin-left: 70px;
+}
+
+#footer p {
+  color: white;
+  margin: 35px;
+  margin-left: 440px;
+}
