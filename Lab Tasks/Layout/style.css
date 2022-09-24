@@ -132,6 +132,11 @@ a:hover {
 #focus img {
   width: 380px;
   height: 230px;
+  transition: transform 0.2s;
+}
+
+#focus img:hover {
+  transform: scale(0.9);
 }
 
 .focus-img1 img {
@@ -183,6 +188,11 @@ a:hover {
   height: 230px;
   margin-right: 30px;
   margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.info-img img:hover {
+  transform: scale(0.9);
 }
 
 .info-img a {
@@ -223,6 +233,11 @@ a:hover {
   width: 380px;
   height: 230px;
   margin-right: 10px;
+  transition: transform 0.2s;
+}
+
+.photos img:hover {
+  transform: scale(0.9);
 }
 
 /* ===================================================== */
