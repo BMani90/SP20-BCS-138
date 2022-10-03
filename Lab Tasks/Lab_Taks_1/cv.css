@@ -7,11 +7,12 @@
 html,
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
 }
 
 .main {
   width: 100%;
-  height: 400px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,76 +21,71 @@ body {
 
 .main .pic img {
   width: 200px;
-  margin-left: 400px;
-  margin-top: 30px;
-  /* background-color: aqua;
-  border-radius: 100%; */
+  margin-left: 300px;
+  padding-bottom: 20px;
+}
+
+.main .pic {
 }
 
 .name {
-  margin-left: 110px;
+  display: flex;
+  flex: 4;
+  background-color: #fecb00;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.main .blank {
+  flex: 0.962;
+  width: 100%;
 }
 
 .main .name h1 {
   font-size: 2em;
   margin-left: -10px;
+  padding-top: 20px;
 }
 
 .name h3 {
   margin-top: 20px;
 }
 
-.logo1 {
+.logo {
   display: flex;
   margin-top: 20px;
 }
-.logo1 i {
+.logo i {
   margin-right: 10px;
-  padding-top: 12px;
-}
-
-.logo2 {
-  display: flex;
-  margin-top: 20px;
-}
-.logo2 i {
-  margin-right: 10px;
-  padding-top: 12px;
-}
-
-.logo3 {
-  display: flex;
-  margin-top: 20px;
-}
-.logo3 i {
-  margin-right: 2px;
   padding-top: 12px;
 }
 
 /* ===================================================== */
 .container {
   width: 100%;
-  height: 500px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
 .container .blank {
-  width: 22%;
+  flex: 1;
 }
 
 .container .about {
-  background-color: grey;
+  background-color: #e28743;
   overflow: hidden;
-  width: 33%;
+  flex: 2;
   padding: 20px 50px;
 }
 
 .about h1 {
   font-size: 2.2em;
   margin-bottom: 15px;
+  margin-top: 20px;
 }
+
 .about ul,
 p {
   margin-top: 10px;
@@ -97,16 +93,16 @@ p {
 }
 
 .container .skills {
-  background-color: gainsboro;
+  background-color: #eab676;
   overflow: hidden;
-  width: 33%;
+  flex: 2;
   /* padding: 20px 50px; */
 }
 
 .skills h1 {
   font-size: 2.2em;
   margin-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 50px;
 }
 .skills ul {
