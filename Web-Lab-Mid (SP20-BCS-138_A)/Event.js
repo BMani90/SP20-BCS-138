@@ -1,11 +1,18 @@
-function setColor(btn, color) {
-  var count = 1;
-  var property = document.getElementById(btn);
-  if (count == 0) {
-    property.style.backgroundColor = "#FFFFFF";
-    count = 1;
-  } else {
-    property.style.backgroundColor = "Orange";
-    count = 0;
-  }
-}
+// function setColor(btn, color) {
+//   var count = 1;
+//   var property = document.getElementById(btn);
+//   if (count == 0) {
+//     property.style.backgroundColor = "#FFFFFF";
+//     count = 1;
+//   } else {
+//     property.style.backgroundColor = "Orange";
+//     count = 0;
+//   }
+// }
+
+window.onload = function () {
+  let btn = document.getElementById("btn2");
+  btn.onclick = function () {
+    btn.style.backgroundColor = "Orange";
+  };
+};

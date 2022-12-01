@@ -67,7 +67,7 @@ a:hover {
   border-radius: 10px;
 }
 
-.navbar .links .btn2 {
+.navbar .links #btn2 {
   height: 40px;
   width: 10%;
   background-color: black;
